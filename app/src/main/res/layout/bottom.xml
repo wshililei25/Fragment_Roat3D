@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/background_dark"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/btn_video"
+            style="@style/main_bottom_one"
+            android:checked="true"
+            android:text="首页"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/btn_shop"
+            style="@style/main_bottom_one"
+            android:text="商圈"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/btn_news"
+            style="@style/main_bottom_one"
+            android:text="趣聊"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/btn_me"
+            style="@style/main_bottom_one"
+            android:text="我的"
+            android:textColor="@color/white" />
+    </RadioGroup>
+</RelativeLayout>
